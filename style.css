@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .body {
+    background-color: rgba(238, 185, 205, 0.226);
+} */
+.ikinci-nav {
+    color: rgba(0, 0, 0, 0.274);
+    text-decoration-color: rgba(0, 0, 0, 0.322);
+}
+
+.logo {
+    font-family: 'Shadows Into Light';
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.header {
+    background-color: rgb(92, 86, 86);
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: -5px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+
+}
+
+
+
+.divboxes div {
+    background: linear-gradient(90deg, rgba(136, 125, 125, 1) 0%, rgba(219, 53, 95, 1) 55%, rgba(126, 51, 205, 1) 100%);
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 15px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divboxes div a {
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 15px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card .foto {
+    height: 200px;
+}
+
+.card .img-wrap img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-light:hover {
+    background-color: darkgray !important;
+    color: darkgrey !important;
+}
+
+.card .title {
+    display: block;
+    text-decoration: none;
+    color: #00000065;
+}
+
+.card .info-wrap {
+    padding: 1rem 1.2rem;
+}
+
+
+.fa-shopping-cart,
+.fa-heart,
+.fa-user,
+.fa-search,
+.logo {
+    color: rgba(0, 0, 0, 0.384)
+}
+
+.fa-regular:hover {
+    color: rgba(0, 0, 0, 0.342) !important;
+
+}
+
+.slidercontainer {
+    height: 400px;
+}
+
+.slider {
+    position: relative;
+    width: 80vw;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.slide {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s linear;
+
+}
+
+.active {
+    opacity: 1;
+}
+
+.inner {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 10px 10px;
+    border-radius: 50px;
+
+}
+
+.slide:nth-child(1) {
+
+    background: url(img/74003985044863666855.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide:nth-child(2) {
+    background: url(img/86545007069766398535.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide:nth-child(3) {
+    background: url(img/sonindirimson.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.indicators {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -200px;
+}
+
+.indicators button {
+    padding: 15px 30px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.fav {
+    color: red !important;
+}
+
+.curs {
+    cursor: pointer;
+}
+
+.asdd {
+    background-color: rgba(238, 185, 205, 0.651);
+    border-radius: 20px;
+}
+
+.kecboxes img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cok-satan {
+    object-fit: cover;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.badge2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marka div a img {
+    width: 90%;
+    padding-bottom: 40px;
+    border-radius: 10px;
+
+}
+
+.footerr {
+    background-color: rgba(63, 59, 59, 0.753);
+    width: 100%;
+    padding: 0 !important;
+}
